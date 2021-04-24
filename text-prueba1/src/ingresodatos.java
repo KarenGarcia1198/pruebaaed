@@ -35,6 +35,8 @@ public class ingresodatos {
 		return "ingresodatos [num=" + num + ", nombre=" + nombre + ", Apellido=" + Apellido + "]";
 	}
 	
+	//System.out.println("aea");
+	
 	
 
 }
