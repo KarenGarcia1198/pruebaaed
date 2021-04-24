@@ -3,8 +3,10 @@ public class ingresodatos {
 	private int num;
 	private String nombre;
 	private String Apellido; 
+	private String SegApellido;
 	private int age;
 	private int DNI;
+
 
 	public ingresodatos(int num, String nombre, String apellido) {
 		super();
@@ -35,7 +37,7 @@ public class ingresodatos {
 		return "ingresodatos [num=" + num + ", nombre=" + nombre + ", Apellido=" + Apellido + "]";
 	}
 	
-	//System.out.println("aea");
+	
 	
 	
 
