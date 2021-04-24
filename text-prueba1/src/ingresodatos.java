@@ -4,6 +4,12 @@ public class ingresodatos {
 	private String nombre;
 	private String Apellido;
 	private int DNI;
+	public int getDNI() {
+		return DNI;
+	}
+	public void setDNI(int dNI) {
+		DNI = dNI;
+	}
 	public ingresodatos(int num, String nombre, String apellido) {
 		super();
 		this.num = num;
