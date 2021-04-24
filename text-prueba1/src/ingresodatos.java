@@ -2,9 +2,10 @@
 public class ingresodatos {
 	private int num;
 	private String nombre;
-	private String Apellido;
-	//mine
+	private String Apellido; 
 	private int age;
+	private int DNI;
+
 	public ingresodatos(int num, String nombre, String apellido) {
 		super();
 		this.num = num;
